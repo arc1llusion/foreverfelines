@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+        <link ref="stylesheet" href="styles/normalize.css" />
+        <style>
+            h1, h2 {
+                font-family: "Hachi Maru Pop", cursive;
+                font-weight: 400;
+                font-style: normal;
+
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 4em;
+            }
+
+            h2 {
+                font-size: 3em;
+            }
+
+            
+
+            p {
+                    font-family: "Open Sans", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-variation-settings: "wdth" 100;
+
+                    padding: 1% 5%;
+                    text-align: center;
+            }
+
+            .our-story {
+                h3 {
+                    font-family: "Open Sans", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-variation-settings: "wdth" 100;
+
+                    font-size: 2em;
+                    text-align: center;
+
+                    margin: 0;
+                }
+                
+                p {
+                    margin: 0;
+                }
+
+                @media (max-width: 800px) {
+                    p {
+                        padding: 2% 8%;
+                    }
+                }
+            }
+
+            .owners {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings: "wdth" 100;
+
+                .owner-bio {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    
+
+                    @media (max-width: 800px) {
+                        flex-direction: column;        
+                    }
+
+                    .owner-pic {
+                        text-align: center;
+                        border: 3px solid red;
+                        flex: 1 1 0%;
+                    }
+
+                    .owner-description {
+                        border: 3px solid blue;
+                        flex: 6 1 0%;
+                    }
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Forever Felines Cat Lounge</h1>
+        <h2>Coming Soon!</h2>
+
+        <p class="get-to-know">In the meantime, get to know us!</p>
+
+        <div class="our-story">
+            <h3>Our Story</h3>
+            <p class="story">
+                The path to opening Forever Felines was shaped by the unique challenges of the owners. Megan and Jared each battled respective disabilities, but had dreams to be more than their disability and found comfort in their shared love of cats. 
+                Determined to create a welcoming space for others like them, they plan to open a cat lounge that also sold quirky, cat-themed merchandise. The lounge offered a peaceful retreat, where visitors could unwind with adoptable cats while browsing everything from cat-shaped mugs to cozy cat-themed blankets.
+                The lounge offered a peaceful retreat, where visitors could unwind with adoptable cats while browsing everything from cat-shaped mugs to cozy cat-themed blankets. 
+                Lena designed the lounge to be fully accessible, while Sam used his creativity to curate the merchandise and handle the social media. Together, they built a space that not only showcased their love for cats but also embraced the power of community, resilience, and understanding, proving that disability wasn’t a barrier to turning their dream into reality.
+            </p>
+        </div>
+
+        <div class="owners">
+            <div class="owner-bio">
+                <div class="owner-pic">
+                    <img src="https://placehold.co/180x320/png" />
+                </div>
+                <div class="owner-description">
+                    <p>The heart of the business. Megan will bring flavor and style to the business by being the planner and architect of the retail space, helping with financial and managerial decisions, and significant organizational expertise. She brings years of management experience from Wal-Mart.</p>
+                </div>
+            </div>
+            <div class="owner-bio">
+                <div class="owner-pic">
+                    <img src="https://placehold.co/180x320/png" />
+                </div>
+                <div class="owner-description">
+                    <p>Long time cat lover and enthusiast with management experience in the food industry. Jared will be at the back end of the business, maintaining the website, balancing finances, and various bookkeeping.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
